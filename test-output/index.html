@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG new reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\User\eclipse-workspace\SnapdealProject\Cart.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.stepdefinition.CartSteps" hash-for-method="display_cart_details">display_cart_details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.stepdefinition.CartSteps" hash-for-method="user_can_clicks_on_remove_from_cartb_button">user_can_clicks_on_remove_from_cartb_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.stepdefinition.CartSteps" hash-for-method="user_can_clicks_on_same_product_again">user_can_clicks_on_same_product_again</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.stepdefinition.CartSteps" hash-for-method="user_can_clicks_on_view_cart_button">user_can_clicks_on_view_cart_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.stepdefinition.CartSteps" hash-for-method="user_enters_search_keyword">user_enters_search_keyword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.stepdefinition.CartSteps" hash-for-method="user_should_click_on_add_to_cart_button">user_should_click_on_add_to_cart_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.stepdefinition.CartSteps" hash-for-method="user_should_click_on_add_to_cart_button_again">user_should_click_on_add_to_cart_button_again</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.stepdefinition.CartSteps" hash-for-method="user_should_click_on_search_button">user_should_click_on_search_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.stepdefinition.CartSteps" hash-for-method="user_should_clicks_on_product">user_should_clicks_on_product</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.stepdefinition.CartSteps" hash-for-method="verify_the_product_is_added_to_cart_button">verify_the_product_is_added_to_cart_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.stepdefinition.CartSteps" hash-for-method="verify_the_product_is_already_added_to_cart_button">verify_the_product_is_already_added_to_cart_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.stepdefinition.CartSteps" hash-for-method="verify_the_product_is_removed_from_the_cart">verify_the_product_is_removed_from_the_cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.stepdefinition.CartSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="display_cart_details">
+                  </a> <!-- display_cart_details -->
+                  <span class="method-name">display_cart_details</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_can_clicks_on_remove_from_cartb_button">
+                  </a> <!-- user_can_clicks_on_remove_from_cartb_button -->
+                  <span class="method-name">user_can_clicks_on_remove_from_cartb_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_can_clicks_on_same_product_again">
+                  </a> <!-- user_can_clicks_on_same_product_again -->
+                  <span class="method-name">user_can_clicks_on_same_product_again</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_can_clicks_on_view_cart_button">
+                  </a> <!-- user_can_clicks_on_view_cart_button -->
+                  <span class="method-name">user_can_clicks_on_view_cart_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_enters_search_keyword">
+                  </a> <!-- user_enters_search_keyword -->
+                  <span class="method-name">user_enters_search_keyword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_click_on_add_to_cart_button">
+                  </a> <!-- user_should_click_on_add_to_cart_button -->
+                  <span class="method-name">user_should_click_on_add_to_cart_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_click_on_add_to_cart_button_again">
+                  </a> <!-- user_should_click_on_add_to_cart_button_again -->
+                  <span class="method-name">user_should_click_on_add_to_cart_button_again</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_click_on_search_button">
+                  </a> <!-- user_should_click_on_search_button -->
+                  <span class="method-name">user_should_click_on_search_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_should_clicks_on_product">
+                  </a> <!-- user_should_clicks_on_product -->
+                  <span class="method-name">user_should_clicks_on_product</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_the_product_is_added_to_cart_button">
+                  </a> <!-- verify_the_product_is_added_to_cart_button -->
+                  <span class="method-name">verify_the_product_is_added_to_cart_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_the_product_is_already_added_to_cart_button">
+                  </a> <!-- verify_the_product_is_already_added_to_cart_button -->
+                  <span class="method-name">verify_the_product_is_already_added_to_cart_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_the_product_is_removed_from_the_cart">
+                  </a> <!-- verify_the_product_is_removed_from_the_cart -->
+                  <span class="method-name">verify_the_product_is_removed_from_the_cart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\User\eclipse-workspace\SnapdealProject\Cart.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Cart Test&quot; preserve-order=&quot;true&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.stepdefinition.CartSteps&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Cart Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Cart Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'user_can_clicks_on_remove_from_cartb_button')
+data.setCell(0, 2, 'com.stepdefinition.CartSteps')
+data.setCell(0, 3, 6318);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'user_should_clicks_on_product')
+data.setCell(1, 2, 'com.stepdefinition.CartSteps')
+data.setCell(1, 3, 5139);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'user_should_click_on_search_button')
+data.setCell(2, 2, 'com.stepdefinition.CartSteps')
+data.setCell(2, 3, 3522);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'user_can_clicks_on_same_product_again')
+data.setCell(3, 2, 'com.stepdefinition.CartSteps')
+data.setCell(3, 3, 2983);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'user_should_click_on_add_to_cart_button_again')
+data.setCell(4, 2, 'com.stepdefinition.CartSteps')
+data.setCell(4, 3, 2213);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'user_should_click_on_add_to_cart_button')
+data.setCell(5, 2, 'com.stepdefinition.CartSteps')
+data.setCell(5, 3, 2013);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'user_enters_search_keyword')
+data.setCell(6, 2, 'com.stepdefinition.CartSteps')
+data.setCell(6, 3, 1522);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verify_the_product_is_already_added_to_cart_button')
+data.setCell(7, 2, 'com.stepdefinition.CartSteps')
+data.setCell(7, 3, 926);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'user_can_clicks_on_view_cart_button')
+data.setCell(8, 2, 'com.stepdefinition.CartSteps')
+data.setCell(8, 3, 885);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verify_the_product_is_added_to_cart_button')
+data.setCell(9, 2, 'com.stepdefinition.CartSteps')
+data.setCell(9, 3, 879);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verify_the_product_is_removed_from_the_cart')
+data.setCell(10, 2, 'com.stepdefinition.CartSteps')
+data.setCell(10, 3, 693);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'display_cart_details')
+data.setCell(11, 2, 'com.stepdefinition.CartSteps')
+data.setCell(11, 3, 358);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.stepdefinition.CartSteps</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">user_is_on_snapdeal_page</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">user_enters_search_keyword</span>
+                <span class="method-start">8624 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_should_click_on_search_button</span>
+                <span class="method-start">10148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_should_clicks_on_product</span>
+                <span class="method-start">13671 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_should_click_on_add_to_cart_button</span>
+                <span class="method-start">18811 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_the_product_is_added_to_cart_button</span>
+                <span class="method-start">20825 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_can_clicks_on_same_product_again</span>
+                <span class="method-start">21705 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_should_click_on_add_to_cart_button_again</span>
+                <span class="method-start">24690 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_the_product_is_already_added_to_cart_button</span>
+                <span class="method-start">26904 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_can_clicks_on_view_cart_button</span>
+                <span class="method-start">27831 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">display_cart_details</span>
+                <span class="method-start">28717 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_can_clicks_on_remove_from_cartb_button</span>
+                <span class="method-start">29075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_the_product_is_removed_from_the_cart</span>
+                <span class="method-start">35394 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">36089 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

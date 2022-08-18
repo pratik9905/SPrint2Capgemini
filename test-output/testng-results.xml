@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36821" started-at="2022-08-17T16:03:58Z" finished-at="2022-08-17T16:04:34Z">
+    <groups>
+    </groups>
+    <test name="Cart Test" duration-ms="36821" started-at="2022-08-17T16:03:58Z" finished-at="2022-08-17T16:04:34Z">
+      <class name="com.stepdefinition.CartSteps">
+        <test-method status="PASS" signature="user_is_on_snapdeal_page()[pri:0, instance:com.stepdefinition.CartSteps@61832929]" name="user_is_on_snapdeal_page" is-config="true" duration-ms="8621" started-at="2022-08-17T21:33:58Z" finished-at="2022-08-17T21:34:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_is_on_snapdeal_page -->
+        <test-method status="PASS" signature="user_enters_search_keyword()[pri:0, instance:com.stepdefinition.CartSteps@61832929]" name="user_enters_search_keyword" duration-ms="1522" started-at="2022-08-17T21:34:06Z" finished-at="2022-08-17T21:34:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_enters_search_keyword -->
+        <test-method status="PASS" signature="user_should_click_on_search_button()[pri:0, instance:com.stepdefinition.CartSteps@61832929]" name="user_should_click_on_search_button" duration-ms="3522" started-at="2022-08-17T21:34:08Z" finished-at="2022-08-17T21:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_should_click_on_search_button -->
+        <test-method status="PASS" signature="user_should_clicks_on_product()[pri:0, instance:com.stepdefinition.CartSteps@61832929]" name="user_should_clicks_on_product" duration-ms="5139" started-at="2022-08-17T21:34:11Z" finished-at="2022-08-17T21:34:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_should_clicks_on_product -->
+        <test-method status="PASS" signature="user_should_click_on_add_to_cart_button()[pri:0, instance:com.stepdefinition.CartSteps@61832929]" name="user_should_click_on_add_to_cart_button" duration-ms="2013" started-at="2022-08-17T21:34:16Z" finished-at="2022-08-17T21:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_should_click_on_add_to_cart_button -->
+        <test-method status="PASS" signature="verify_the_product_is_added_to_cart_button()[pri:0, instance:com.stepdefinition.CartSteps@61832929]" name="verify_the_product_is_added_to_cart_button" duration-ms="879" started-at="2022-08-17T21:34:18Z" finished-at="2022-08-17T21:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_the_product_is_added_to_cart_button -->
+        <test-method status="PASS" signature="user_can_clicks_on_same_product_again()[pri:0, instance:com.stepdefinition.CartSteps@61832929]" name="user_can_clicks_on_same_product_again" duration-ms="2983" started-at="2022-08-17T21:34:19Z" finished-at="2022-08-17T21:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_can_clicks_on_same_product_again -->
+        <test-method status="PASS" signature="user_should_click_on_add_to_cart_button_again()[pri:0, instance:com.stepdefinition.CartSteps@61832929]" name="user_should_click_on_add_to_cart_button_again" duration-ms="2213" started-at="2022-08-17T21:34:22Z" finished-at="2022-08-17T21:34:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_should_click_on_add_to_cart_button_again -->
+        <test-method status="PASS" signature="verify_the_product_is_already_added_to_cart_button()[pri:0, instance:com.stepdefinition.CartSteps@61832929]" name="verify_the_product_is_already_added_to_cart_button" duration-ms="926" started-at="2022-08-17T21:34:25Z" finished-at="2022-08-17T21:34:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_the_product_is_already_added_to_cart_button -->
+        <test-method status="PASS" signature="user_can_clicks_on_view_cart_button()[pri:0, instance:com.stepdefinition.CartSteps@61832929]" name="user_can_clicks_on_view_cart_button" duration-ms="885" started-at="2022-08-17T21:34:25Z" finished-at="2022-08-17T21:34:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_can_clicks_on_view_cart_button -->
+        <test-method status="PASS" signature="display_cart_details()[pri:0, instance:com.stepdefinition.CartSteps@61832929]" name="display_cart_details" duration-ms="358" started-at="2022-08-17T21:34:26Z" finished-at="2022-08-17T21:34:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display_cart_details -->
+        <test-method status="PASS" signature="user_can_clicks_on_remove_from_cartb_button()[pri:0, instance:com.stepdefinition.CartSteps@61832929]" name="user_can_clicks_on_remove_from_cartb_button" duration-ms="6318" started-at="2022-08-17T21:34:27Z" finished-at="2022-08-17T21:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_can_clicks_on_remove_from_cartb_button -->
+        <test-method status="PASS" signature="verify_the_product_is_removed_from_the_cart()[pri:0, instance:com.stepdefinition.CartSteps@61832929]" name="verify_the_product_is_removed_from_the_cart" duration-ms="693" started-at="2022-08-17T21:34:33Z" finished-at="2022-08-17T21:34:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_the_product_is_removed_from_the_cart -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.stepdefinition.CartSteps@61832929]" name="afterTest" is-config="true" duration-ms="722" started-at="2022-08-17T21:34:34Z" finished-at="2022-08-17T21:34:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.stepdefinition.CartSteps -->
+    </test> <!-- Cart Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Cart Test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.stepdefinition.CartSteps">
+        <methods>
+          <include name="display_cart_details"/>
+          <include name="user_can_clicks_on_view_cart_button"/>
+          <include name="verify_the_product_is_removed_from_the_cart"/>
+          <include name="verify_the_product_is_already_added_to_cart_button"/>
+          <include name="user_is_on_snapdeal_page"/>
+          <include name="user_can_clicks_on_remove_from_cartb_button"/>
+        </methods>
+      </class> <!-- com.stepdefinition.CartSteps -->
+    </classes>
+  </test> <!-- Cart Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

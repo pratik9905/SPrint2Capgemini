@@ -1,0 +1,176 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5228753700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Snapdeal page",
+            "match": {
+              "location": "SortFilterSteps.user_is_on_Snapdeal_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1702119100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Ncert Textbook",
+            "match": {
+              "location": "SortFilterSteps.user_enters_Ncert_Textbook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1670113800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should clicks on search button",
+            "match": {
+              "location": "SortFilterSteps.user_should_clicks_on_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 669700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verifying the Sort \u0026 Filter functionality",
+        "description": "",
+        "id": "verifying-snapdeal-sort-\u0026-filter-functionality;verifying-the-sort-\u0026-filter-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 1654724000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2535422600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on sort by",
+            "match": {
+              "location": "SortFilterSteps.user_click_on_sort_by()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72543600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Checks the counts of Options",
+            "match": {
+              "location": "SortFilterSteps.checks_the_counts_of_Options()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 731652000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User selects the option fresh arrivals",
+            "match": {
+              "location": "SortFilterSteps.user_selects_the_option_fresh_arrivals()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 368734200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify the fresh arrival is selected",
+            "match": {
+              "location": "SortFilterSteps.verify_the_fresh_arrival_is_selected()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5856937700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on apply filter options",
+            "match": {
+              "location": "SortFilterSteps.user_clicks_on_apply_filter_options()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1928073300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Dispaly the filtered results",
+            "match": {
+              "location": "SortFilterSteps.dispaly_the_filtered_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SortFilter"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Snapdeal Sort \u0026 Filter Functionality",
+    "description": "",
+    "id": "verifying-snapdeal-sort-\u0026-filter-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/B_SortFilter.feature",
+    "tags": [
+      {
+        "name": "@SortFilter",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
